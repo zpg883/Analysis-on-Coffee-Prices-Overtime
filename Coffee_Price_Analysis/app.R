@@ -12,7 +12,7 @@ library(zoo)
 library(tidyverse)
 
 ##loading data
-coffee <- read_csv("~/Life/Jobs/Projects/coffee.csv")
+coffee <- read_csv("coffee.csv")
 
 
 # Define UI for application that draws a histogram
