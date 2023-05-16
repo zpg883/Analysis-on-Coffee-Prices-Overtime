@@ -100,7 +100,7 @@ server <- function(input, output) {
         filter(Date <= input$years) %>% 
         mutate(years = factor(lubridate::year(Date))) %>% 
         group_by(years) %>% 
-        summarize(Low = sum(Low)) %>% 
+        summarize(Low = median(Low)) %>% 
         
         # draw the bar chart based on specified year range
         ggplot(aes(x = years, y = Low)) + 
