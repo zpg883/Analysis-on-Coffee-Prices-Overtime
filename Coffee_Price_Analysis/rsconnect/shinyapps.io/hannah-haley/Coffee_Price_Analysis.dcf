@@ -5,9 +5,7 @@ account: hannah-haley
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9115801
-bundleId: 7223339
+bundleId:
 url: https://hannah-haley.shinyapps.io/Coffee_Price_Analysis/
-when: 1684220461.44742
-lastSyncTime: 1684220461.44743
 asMultiple: FALSE
 asStatic: FALSE
